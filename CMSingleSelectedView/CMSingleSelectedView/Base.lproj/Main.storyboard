@@ -15,7 +15,38 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aZ-im-hjS">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="打开单选按钮"/>
+                                <connections>
+                                    <action selector="openSingleSelectedView" destination="BYZ-38-t0r" eventType="touchUpInside" id="szZ-o7-XZt"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3aZ-im-hjS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4MN-1C-QRt"/>
+                            <constraint firstItem="3aZ-im-hjS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VsW-TQ-3cO"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="3aZ-im-hjS"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="4MN-1C-QRt"/>
+                                <exclude reference="VsW-TQ-3cO"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="3aZ-im-hjS"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="4MN-1C-QRt"/>
+                                <include reference="VsW-TQ-3cO"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

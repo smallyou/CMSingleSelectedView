@@ -13,6 +13,11 @@
 		542905B41DCE34AC00ADDAE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542905B21DCE34AC00ADDAE0 /* Main.storyboard */; };
 		542905B61DCE34AC00ADDAE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542905B51DCE34AC00ADDAE0 /* Assets.xcassets */; };
 		542905B91DCE34AC00ADDAE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542905B71DCE34AC00ADDAE0 /* LaunchScreen.storyboard */; };
+		542905CD1DCE412100ADDAE0 /* CMPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542905CC1DCE412100ADDAE0 /* CMPresentationController.m */; settings = {ASSET_TAGS = (); }; };
+		542905D01DCE419E00ADDAE0 /* CMAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 542905CF1DCE419E00ADDAE0 /* CMAnimationTool.m */; settings = {ASSET_TAGS = (); }; };
+		542905DA1DCE659D00ADDAE0 /* CMSingleSelectedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542905D31DCE659D00ADDAE0 /* CMSingleSelectedController.m */; settings = {ASSET_TAGS = (); }; };
+		542905DB1DCE659D00ADDAE0 /* CMChoiceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 542905D61DCE659D00ADDAE0 /* CMChoiceItem.m */; settings = {ASSET_TAGS = (); }; };
+		542905DC1DCE659D00ADDAE0 /* CMSingleSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 542905D91DCE659D00ADDAE0 /* CMSingleSelectedView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,16 @@
 		542905B51DCE34AC00ADDAE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		542905B81DCE34AC00ADDAE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		542905BA1DCE34AC00ADDAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542905CB1DCE412100ADDAE0 /* CMPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPresentationController.h; sourceTree = "<group>"; };
+		542905CC1DCE412100ADDAE0 /* CMPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPresentationController.m; sourceTree = "<group>"; };
+		542905CE1DCE419E00ADDAE0 /* CMAnimationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAnimationTool.h; sourceTree = "<group>"; };
+		542905CF1DCE419E00ADDAE0 /* CMAnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAnimationTool.m; sourceTree = "<group>"; };
+		542905D21DCE659D00ADDAE0 /* CMSingleSelectedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSingleSelectedController.h; sourceTree = "<group>"; };
+		542905D31DCE659D00ADDAE0 /* CMSingleSelectedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSingleSelectedController.m; sourceTree = "<group>"; };
+		542905D51DCE659D00ADDAE0 /* CMChoiceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMChoiceItem.h; sourceTree = "<group>"; };
+		542905D61DCE659D00ADDAE0 /* CMChoiceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMChoiceItem.m; sourceTree = "<group>"; };
+		542905D81DCE659D00ADDAE0 /* CMSingleSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSingleSelectedView.h; sourceTree = "<group>"; };
+		542905D91DCE659D00ADDAE0 /* CMSingleSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSingleSelectedView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 		542905A81DCE34AC00ADDAE0 /* CMSingleSelectedView */ = {
 			isa = PBXGroup;
 			children = (
+				542905C01DCE35BC00ADDAE0 /* CMSingleSelectedView */,
 				542905AC1DCE34AC00ADDAE0 /* AppDelegate.h */,
 				542905AD1DCE34AC00ADDAE0 /* AppDelegate.m */,
 				542905AF1DCE34AC00ADDAE0 /* ViewController.h */,
@@ -77,6 +93,55 @@
 				542905AA1DCE34AC00ADDAE0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		542905C01DCE35BC00ADDAE0 /* CMSingleSelectedView */ = {
+			isa = PBXGroup;
+			children = (
+				542905D11DCE659D00ADDAE0 /* Controller */,
+				542905D41DCE659D00ADDAE0 /* Model */,
+				542905D71DCE659D00ADDAE0 /* View */,
+				542905CA1DCE410100ADDAE0 /* AnimationTool */,
+			);
+			path = CMSingleSelectedView;
+			sourceTree = "<group>";
+		};
+		542905CA1DCE410100ADDAE0 /* AnimationTool */ = {
+			isa = PBXGroup;
+			children = (
+				542905CB1DCE412100ADDAE0 /* CMPresentationController.h */,
+				542905CC1DCE412100ADDAE0 /* CMPresentationController.m */,
+				542905CE1DCE419E00ADDAE0 /* CMAnimationTool.h */,
+				542905CF1DCE419E00ADDAE0 /* CMAnimationTool.m */,
+			);
+			path = AnimationTool;
+			sourceTree = "<group>";
+		};
+		542905D11DCE659D00ADDAE0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				542905D21DCE659D00ADDAE0 /* CMSingleSelectedController.h */,
+				542905D31DCE659D00ADDAE0 /* CMSingleSelectedController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		542905D41DCE659D00ADDAE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				542905D51DCE659D00ADDAE0 /* CMChoiceItem.h */,
+				542905D61DCE659D00ADDAE0 /* CMChoiceItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		542905D71DCE659D00ADDAE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				542905D81DCE659D00ADDAE0 /* CMSingleSelectedView.h */,
+				542905D91DCE659D00ADDAE0 /* CMSingleSelectedView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +170,7 @@
 		5429059E1DCE34AC00ADDAE0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CM;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = com.chmn123.singleSelectedView;
 				TargetAttributes = {
@@ -151,8 +217,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				542905B11DCE34AC00ADDAE0 /* ViewController.m in Sources */,
+				542905D01DCE419E00ADDAE0 /* CMAnimationTool.m in Sources */,
 				542905AE1DCE34AC00ADDAE0 /* AppDelegate.m in Sources */,
+				542905DB1DCE659D00ADDAE0 /* CMChoiceItem.m in Sources */,
+				542905CD1DCE412100ADDAE0 /* CMPresentationController.m in Sources */,
+				542905DA1DCE659D00ADDAE0 /* CMSingleSelectedController.m in Sources */,
 				542905AB1DCE34AC00ADDAE0 /* main.m in Sources */,
+				542905DC1DCE659D00ADDAE0 /* CMSingleSelectedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
