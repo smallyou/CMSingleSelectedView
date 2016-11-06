@@ -14,7 +14,7 @@ s.license      = "MIT"
 s.author             = { "smallyou" => "smallyou@126.com" }
 s.social_media_url   = "http://www.jianshu.com/users/ebb60643b57c/latest_articles"
 s.source       = { :git => "https://github.com/smallyou/CMSingleSelectedView.git", :tag => s.version }
-s.source_files  = "CMExtension"
+s.source_files  = "Pod/Classes/**/*"
 s.requires_arc = true
  
 end
