@@ -5,11 +5,10 @@ Pod::Spec.new do |s|
 
 
   s.name         = "CMSingleSelectedView"
-  s.version      = "0.0.1"
-  s.ios.deployment_target = "7.0"
+  s.version      = "0.1.2"
+ 
   s.summary      = "A Single Selected View like UIActionSheet which popped from the bottom of View."
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "A Single Selected View like UIActionSheet which popped from the bottom of View."
 
   s.homepage     = "https://github.com/smallyou/CMSingleSelectedView"
 
