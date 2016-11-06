@@ -16,5 +16,5 @@ s.social_media_url   = "http://www.jianshu.com/users/ebb60643b57c/latest_article
 s.source       = { :git => "https://github.com/smallyou/CMSingleSelectedView.git", :tag => s.version }
 s.source_files  = "CMExtension"
 s.requires_arc = true
-
+ 
 end
